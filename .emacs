@@ -118,3 +118,7 @@
       mouse-wheel-follow-mouse t)
 
 (pixel-scroll-precision-mode 1)
+
+(menu-bar-mode -1)    ;; Górne menu (File, Edit itd.)
+(tool-bar-mode -1)    ;; Pasek narzędzi z ikonami
+(scroll-bar-mode -1)  ;; Pionowy pasek przewijania
